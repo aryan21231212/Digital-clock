@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(black,black) ;
+    position: absolute;
+    z-index: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 700px;
+    color: #17D4FE;
+    letter-spacing: 7px;
+    font-size: 50px;
+    box-shadow: 5px 6px 18px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 2;
+}
